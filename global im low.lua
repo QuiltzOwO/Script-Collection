@@ -1,4 +1,4 @@
-while game.Workspace[game.Players.LocalPlayer.Name].Humanoid ~= nil do
+while wait() do
 local player = game.Players.LocalPlayer
 local character = game.Workspace[player.Name]
 local humanoid = character.Humanoid
