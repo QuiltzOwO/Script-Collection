@@ -20,3 +20,4 @@ if humanoid.Health < quartermaxhp then
 
   game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 end
+end
